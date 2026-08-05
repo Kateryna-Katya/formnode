@@ -32,3 +32,122 @@ height: 823px;
     margin-right: auto;
 }   
 }
+/* About the Game */
+.about-container{
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.about-wrapper p{
+    width: 335px;
+}
+@media only screen and (min-width: 1440px) {
+.about-container {
+    padding-top: 150px;
+        padding-left: 188px;
+            padding-right: 188px;
+}
+ .about-wrapper{
+flex-direction: row-reverse;
+justify-content: center;
+}
+.about-wrapper p{
+    width: 522px;
+}
+}
+/* Features */
+.features-section{
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 100px center;
+    background-size: 100% 214px;
+}
+.features-list{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.features-item{
+border-radius: 12px;
+    padding:18px 16px;
+    width: 335px;
+    height: auto;
+    background-image: url("/img/features/mob-one.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    gap: 6px;
+}
+.features-item-wrapper{
+width: 264px;
+}
+.features-item-title{
+font-family: "DM Serif Display", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #6cb1d0;
+    margin-bottom: 12px;
+}
+.f2{
+ background-image: url("/img/features/mob-two.png");
+}
+.f3{
+background-image: url("/img/features/mob-three.png");
+}
+.f4{
+background-image: url("/img/features/mob-four.png");
+}
+@media only screen and (min-width: 1440px) {
+.features-container{
+    padding-top: 84px;
+}
+.features-section{
+    background-image: url("/img/features/desk.png");
+    background-repeat: no-repeat;
+    background-position: top 0 center;
+    background-size: cover;
+    height: 674px;
+}
+.features-list{
+    margin-top: 0;
+flex-wrap: wrap;
+width: 840px;
+margin-left: auto;
+margin-right: auto;
+height: 310px;
+gap: 22px;
+column-gap: 20px;
+}
+.features-item{
+padding: 16px;
+    width: 412px;
+    height: 142px;
+    background-image: url("/img/features/desk-one.png");
+
+}
+.features-item-wrapper{
+width: 346px;
+}
+.f2{
+ background-image: url("/img/features/desk-two.png");
+height: 118px;
+}
+.f3{
+background-image: url("/img/features/desk-two.png");
+height: 118px;
+}
+.f4{
+background-image: url("/img/features/desk-one.png");
+height: 142px;
+}    
+}
